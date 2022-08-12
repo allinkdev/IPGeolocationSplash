@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ipgeolocationsplash",
+  "version": "${version}",
+  "name": "IP Geolocation Splash",
+  "description": "Sets your splash text to your IP address, followed by approximate city, approximate country and approximate latitude and longitude.",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {
+    "website": "https://github.com/allinkdev/IPGeolocationSplash",
+    "repo": "https://github.com/allinkdev/IPGeolocationSplash.git"
+  },
+  "license": "unlicense",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "IPGeolocationSplash.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.x"
+  }
+}

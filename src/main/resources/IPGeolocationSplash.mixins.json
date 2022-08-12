@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "allink.ipgeolocationsplash.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "SplashProviderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
